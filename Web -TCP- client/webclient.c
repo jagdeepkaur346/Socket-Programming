@@ -1,5 +1,5 @@
 /*
-Write a web client with the following command line usage 
+A web client with the following command line usage 
 webclient url 
 
 Invoke the program with 
@@ -31,7 +31,6 @@ argument.  The web client then calls shutdown(), prints (to stdout) the entire H
 
 int main (int argc, char* argv[])
 {
-	printf("CMPE 207 HW1 tcp_client Jagdeep kaur 487");
 	int success = 0;
 	char path[20];
 	char host[20];
